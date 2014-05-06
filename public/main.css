@@ -1,0 +1,28 @@
+body{
+	background-color: whitesmoke;
+	text-align: center;
+	
+}
+h1{
+	background-color: goldenrod;
+}
+#incomingChatMessages{
+	color: thistle;
+	font-weight: 700;
+	font-style: oblique;
+	list-style: none;
+}
+#outgoingChatMessage{
+	color: indigo;
+	font-weight: 700;
+	font-style: oblique;
+	list-style: none;
+}
+.incoming-window{
+	/*height: 400px;
+	width: 800px;*/
+	padding: 1em; 
+	background-color: gainsboro;
+	color: chocolate;
+
+}

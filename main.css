@@ -1,0 +1,19 @@
+body{
+	background-color: crimson;
+
+}
+
+h1{
+	background-color: goldenrod;
+}
+#incomingChatMessages{
+	color: crimson;
+	font-weight: 700;
+	font-style: oblique;
+}
+.incoming-window{
+	height: 400px;
+	width: 800px;
+	background-color: black;
+	color: crimson;
+}
