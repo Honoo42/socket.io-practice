@@ -2,7 +2,8 @@ var express = require('express');
 var fs = require('fs');
 var http = require('http');
 var socketio = require ('socket.io');
-
+// Change port to allow Heroku to set it manually
+var port = process.env.PORT || 5600;
 var app = express();
 
 
@@ -21,7 +22,7 @@ app.get('/chat', function(req, res) {
 	app.use(express.static(__dirname + '/public'));
 })
 
-var server = app.listen(5600, function() {
+var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
 
