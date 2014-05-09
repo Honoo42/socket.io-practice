@@ -5,6 +5,9 @@ var socketio = require ('socket.io');
 
 var app = express();
 
+
+
+
 app.get('/', function(req, res) {
 	res.send('<h1>Hello Boulder</h1>');
 	app.use(express.static(__dirname + '/public'));
